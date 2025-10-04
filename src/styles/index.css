@@ -1,0 +1,99 @@
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f0f0f0; 
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        h1 {
+            color: #0056b3; 
+            text-align: center;
+            margin-top: 0;
+            margin-bottom: 25px;
+            font-size: 24px;
+        }
+        
+        .card {
+            background-color: #ffffff; 
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 800px; 
+        }
+        
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        label {
+            display: block; 
+            margin-bottom: 5px;
+            font-weight: bold;
+            font-size: 14px;
+        }
+        
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        input[type="date"],
+        select,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box; 
+            font-size: 16px;
+        }
+        
+        input:focus,
+        select:focus,
+        textarea:focus {
+            border-color: #0056b3;
+            outline: none;
+            box-shadow: 0 0 5px rgba(0, 86, 179, 0.5);
+        }
+
+        .radio-group {
+            display: flex;
+            gap: 15px;
+        }
+        
+        .btn-enviar, .btn-resetar {
+            width: 100%; 
+            padding: 12px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-enviar {
+            background-color: #007bff; 
+            color: white;
+        }
+        
+        .btn-resetar {
+            background-color: #6c757d; 
+            color: white;
+        }
+        
+        .btn-enviar:hover {
+            background-color: #0056b3;
+        }
+
+        .btn-resetar:hover {
+            background-color: #5a6268;
+        }
